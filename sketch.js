@@ -1,7 +1,6 @@
 console.log('hello world')
 let circ
 let c = {r: 150, g: 20, b: 170}
-let allCircles = []
 
 function setup() {
   createCanvas(windowWidth, windowHeight)
@@ -13,4 +12,5 @@ function draw() {
   background(255)
   ellipse(50, 50, 50)
   circ.initialize()
+  allBlueCircles()
 }

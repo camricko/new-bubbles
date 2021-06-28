@@ -1,9 +1,8 @@
 class Circle {
-  constructor(x, y, color, index) {
+  constructor(x, y, color) {
     this.x = x
     this.y = y
     this.c = color || {r: 134, g: 206, b: 203}
-    this.index = index || 0
 
     this.initSize = 20
     this.maxSize = 100
